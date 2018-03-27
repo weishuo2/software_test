@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>注册界面</title>
+</head>
+<body>
+<h1>注册</h1>
+<form action="check1.php" method="post">
+ 
+ <img src="注册背景.jpg" height="300" width="1000"/><br/>
+ <label for="username">用户名：</label> 
+ <input type="test" name="username" id="username" placeholder="中文或字母"/><br/>
+ 
+ <p>
+ <label for="password">密码</label>
+ <input name="password"  placeholder="英文或者数字"></input>
+ </p>
+
+ <p>
+ <label for="address">邮箱</label>
+ <input name="address" required type="email" placeholder="请填写有效邮箱"></input>
+ </p>
+ <input type="submit" value="提交"></input>
+</form>
+<?php
+</body>
+</html>
